@@ -1,0 +1,36 @@
+# Compiled executables
+01_Input_Output
+01_Basics/01>Things_to_Know_in_C++/01_Input_Output
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.so
+*.dylib
+
+# Build directories
+build/
+Debug/
+Release/
+bin/
+obj/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Executables in subdirectories (common pattern)
+*/a.out
+*/*.out
+
