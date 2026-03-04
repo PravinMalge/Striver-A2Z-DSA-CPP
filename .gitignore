@@ -1,0 +1,58 @@
+# macOS system files
+.DS_Store
+*.DS_Store
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# C/C++ build artifacts
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.class
+
+# Build directories
+build/
+Debug/
+Release/
+bin/
+obj/
+
+# Local learning executables (no extension)
+**/01_Input_Output
+**/02_If_Else
+**/03_Switch_Case
+**/04_Array_String
+**/05_For_Loop
+**/06_While_Loop
+**/01_Pattern
+**/02_Pattern
+**/03_Pattern
+**/04_Pattern
+*_Pattern
+!*.cpp
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Executables in subdirectories
+*/a.out
+*/*.out
+
+# Additional common ignores
+node_modules/
+.env
+*.pyc
+.pytest_cache/
+dist/
+.cache/
